@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+      }
+      a {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <table>
+      <tbody>
+        <form action="/login" method="post">
+          <tr>
+            <td>
+              <input name="user_mail" type="email" placeholder="E Mail" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input name="user_pass" type="password" placeholder="Password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="Login" />
+            </td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+    <a href="/register">Register</a>
+  </body>
+</html>
